@@ -1,0 +1,402 @@
+/* commone style */
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.primary-btn {
+    background-color: #FF5400;
+    border: none;
+    padding: 15px 47px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.heading-tag {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.pragraph-tag {
+    color: #131318b3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+/* header style */
+
+
+/* navber */
+.navber-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.nav-title {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-title h1 span {
+    color: #FF5400;
+}
+
+.menuber {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuber>ul {
+    display: flex;
+    list-style: none;
+}
+
+.menuber li a {
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 1s;
+}
+
+.menuber li a:hover {
+    color: #FF5400;
+    letter-spacing: 2px;
+    transition: 1s;
+
+}
+
+.small-menu {
+    font-size: 42px;
+    visibility: hidden;
+}
+
+/* banner section */
+
+.header-banner {}
+
+.header-banner img {
+
+    width: 100%;
+
+}
+
+.banner-description {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    position: relative;
+    bottom: 31.65rem;
+    text-align: center;
+    border-radius: 15px;
+
+    padding: 57px 264px 0px 277px;
+
+
+}
+
+
+.banner-text h1 {
+    color: #fFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.banner-text p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.banner-search {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+
+}
+
+.banner-search input,
+select {
+    padding: 15px 11px;
+    border-radius: 13px;
+    border: none;
+
+}
+
+/* popular section */
+
+.popular-section {
+    margin-top: -281px;
+    display: flex;
+}
+
+.popular-info .heading-tag {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.popular-info .primary-btn {
+    margin-top: 53px;
+}
+
+
+/* destination section */
+.destionation {
+    margin-top: 80px;
+}
+
+.destionation-info {
+    text-align: center;
+    padding: 0px 286px;
+}
+
+.destination-image {
+    margin-top: 50px;
+}
+
+.destination-image .image-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 3px;
+    margin-top: 10px;
+    position: relative;
+
+}
+
+.destination-image .image-row img {
+    width: 100%;
+}
+
+.image-row .image-text {
+    position: absolute;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.image-row .maldives {
+    top: 120px;
+    left: 220px;
+}
+
+.image-row .indonesia {
+    top: 109px;
+    left: 822px;
+}
+
+.image-row .srilanka {
+    top: 102px;
+    left: 117px
+}
+
+.image-row .america {
+    top: 100px;
+    left: 550px
+}
+
+.image-row .kashmir {
+    top: 97px;
+    right: 75px;
+}
+
+.image-row .bangladesh {
+    top: 100px;
+    left: 140px;
+}
+
+.image-row .bandarban {
+    top: 100px;
+    right: 240px;
+}
+
+/* service section */
+.service {
+    margin-top: 70px;
+}
+
+.service-title {
+    text-align: center;
+    padding: 0 282px;
+}
+
+.service-contant {
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+
+}
+
+.service-info {
+    padding: 31px 53px;
+    border-radius: 20px;
+}
+
+.service-info h3,
+.service-info-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.service-info p,
+.service-info-discription {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.service-contant .one {
+    background-color: #fbb5630d;
+    border: 1px solid #fbb56333;
+}
+
+.service-contant .two {
+    background-color: #29cef60d;
+    border: 1px solid #29cef633;
+}
+
+.service-contant02 {
+    padding: 31px 301px;
+    border-radius: 20px;
+}
+
+.service-contant02 .three {
+    border-radius: 16px;
+    border: 1px solid #e9444433;
+    background: #e944440d;
+}
+
+/* newsletter-section */
+
+.newsletter-section {
+    display: grid;
+    grid-template-columns: 40% repeat(1, 1fr);
+    gap: 15px;
+    margin-top: 60px;
+
+}
+
+.newsletter-content {
+    border: 1px solid #FF5400;
+    border-radius: 15px;
+    padding: 11px 60px 0 73px;
+}
+
+.newsletter-content input {
+    width: 322px;
+    margin-top: 25px;
+    padding: 14px 0px 14px 20px;
+    border-radius: 13px;
+    background: #1313180d;
+    border: none;
+}
+
+.newsletter-content .primary-btn {
+    width: 341px;
+    margin-top: 25px;
+
+}
+
+.newsletter-image {
+    position: relative;
+}
+
+.newsletter-image .primary-btn {
+    position: absolute;
+    bottom: 56px;
+    right: 38px;
+    transform: rotate(-23deg);
+    width: 300px;
+    padding: 3px 0px;
+}
+
+.newsletter-image .primary-btn p {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 200;
+    margin: 12px;
+}
+
+.newsletter-image .primary-btn h3 {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 800;
+    margin-top: -14px;
+
+}
+
+/* map section */
+.map {
+    filter: grayscale(100%);
+    margin-top: 90px;
+}
+
+/* footer-section */
+
+.footer-section {
+    background: #1313180d;
+}
+
+.footer-content {
+    text-align: center;
+    padding: 50px 359px;
+}
+
+.footer-content .footer-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.footer-content .footer-title h1 span {
+    color: #FF5400;
+}
+
+.footer-content p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.footer-content ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.footer-content ul a {
+    margin-right: 24px;
+    font-size: 29px;
+    color: #000;
+}
+
+.footer-section .copy-right {
+    text-align: center;
+    padding: 0px 0 37px 0;
+
+}
+
+
+
+/* responsive style */
