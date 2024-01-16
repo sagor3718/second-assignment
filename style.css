@@ -402,23 +402,17 @@ select {
     padding: 0px 0 37px 0;
 
 }
-
-
-
 /* responsive style */
-
 @media screen and (max-width:600px) {
     .container {
         padding: 0 74px;
     }
-
     .pragraph-tag {
         font-size: 39px;
         line-height: 40px;
     }
 
     /* navber */
-
     .menuber {
         display: none;
     }
@@ -468,7 +462,7 @@ select {
         font-size: 34px;
     }
 
-    /* population section */
+
     .popular-section {
         flex-direction: column;
 
